@@ -1,0 +1,84 @@
+@media (max-width: 576px) { /* Ajuste fino para móviles muy pequeños */
+    .col-6 {
+        width: 50% !important;
+    }
+}
+
+
+body {
+    background-color: #f9f4e6;
+}
+
+
+
+h1 {
+    color: #8c5d05;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+h3 {
+    color: #d8bd8a;
+    font-weight: bold;
+}
+
+#search {
+    border-radius: 10px;
+}
+
+#search:focus {
+    border-color: #d8bd8a; /* Cambia el color del borde cuando está enfocado (puedes cambiar el color aquí) */
+    box-shadow: 0 0 10px rgba(255, 218, 115, 0.864); /* Agrega un pequeño resplandor alrededor del borde */
+}
+
+
+.card {
+    display: block;
+    background: linear-gradient(135deg, #f4e9ce, #f4e9ce);
+    color: #8c5d05;
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+.card[style="display: none;"] {
+    opacity: 0;
+}
+
+
+.modal-content {
+    border-radius: 10px; /* Bordes redondeados para el modal */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para el modal */
+}
+
+.modal-header {
+    background-color: #f4e9ce; /* Color de fondo del encabezado */
+    color: #cba875; /* Texto blanco en el encabezado */
+    font-weight: bold; /* Hacer el texto más grueso */
+    border-bottom: 2px solid #fff; /* Borde inferior para separar */
+    border-radius: 10px 10px 0 0; /* Bordes redondeados en la parte superior */
+    padding: 15px; /* Espaciado alrededor del texto */
+}
+
+.modal-title {
+    font-size: 1.5rem; /* Aumentar el tamaño de la fuente del título */
+}
+
+.modal-body {
+    background-color: #f9f4e6; /* Color de fondo claro para el cuerpo */
+    color: #8c5d05;
+    padding: 20px; /* Añadir espacio alrededor del contenido */
+    border-radius: 0 0 10px 10px; /* Bordes redondeados en la parte inferior */
+}
+
+.modal-body p {
+    font-size: 1rem; /* Tamaño de fuente más grande y legible */
+    line-height: 1.5; /* Aumentar el espacio entre las líneas */
+}
+
+
